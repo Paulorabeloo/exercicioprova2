@@ -1,5 +1,5 @@
 /*
-2) Em uma empresa esta ocorrendo avaliação para possiveis mudanças estratêgicas. para isso será necessário alguns requisitos.
+2) Em uma empresa esta ocorrendo avaliaÃ§Ã£o para possiveis mudanÃ§as estratÃªgicas. para isso serÃ¡ necessÃ¡rio alguns requisitos.
 -entrada:
 sexo
 salario
@@ -34,7 +34,7 @@ void Coleta()
     for(int i = 0; i < qtFuncionarios; i++)
     {
         printf("Digite o nome do funcionario: ");
-        scanf("%s", nome[i]);
+        scanf("%s", &nome[i]);
         printf("Digite o sexo do funcionario %s : ", nome[i]);
         scanf(" %c", &sexo[i]);
         printf("Digite a idade do funcionario %s : ", nome[i]);
